@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Task0/">
+    <Project Path="Tyuiu.AndrianovSA.Sprint1.Task0.V23.Lib/Tyuiu.AndrianovSA.Sprint1.Task0.V23.Lib.csproj" />
+    <Project Path="Tyuiu.AndrianovSA.Sprint1.Task0.V23.Test/Tyuiu.AndrianovSA.Sprint1.Task0.V23.Test.csproj" />
+    <Project Path="Tyuiu.AndrianovSA.Sprint1.Task0.V23/Tyuiu.AndrianovSA.Sprint1.Task0.V23.csproj" />
+  </Folder>
+  <Folder Name="/Task1/">
+    <Project Path="Tyuiu.AndrianovSA.Sprint1.Task1.V23.Lib/Tyuiu.AndrianovSA.Sprint1.Task1.V23.Lib.csproj" />
+    <Project Path="Tyuiu.AndrianovSA.Sprint1.Task1.V23.Test/Tyuiu.AndrianovSA.Sprint1.Task1.V23.Test.csproj" />
+    <Project Path="Tyuiu.AndrianovSA.Sprint1.Task1.V23/Tyuiu.AndrianovSA.Sprint1.Task1.V23.csproj" />
+  </Folder>
+</Solution>
