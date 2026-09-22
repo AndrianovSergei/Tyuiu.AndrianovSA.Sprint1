@@ -8,8 +8,8 @@ namespace Tyuiu.AndrianovSA.Sprint1.Task1.V23.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double a = 1.0;
-            double x = 2.0;
+            double a = 2;
+            double x = 2;
             var res = ds.Calculate(a, x);
             Assert.AreEqual(-1, res);
         }
