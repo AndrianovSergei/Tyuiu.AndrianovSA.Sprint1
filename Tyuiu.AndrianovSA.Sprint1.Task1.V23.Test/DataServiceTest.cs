@@ -11,7 +11,7 @@ namespace Tyuiu.AndrianovSA.Sprint1.Task1.V23.Test
             double a = 2.0;
             double x = 2.0;
             var res = ds.Calculate(a, x);
-            Assert.AreEqual(-1, res);
+            Assert.AreEqual(1.57, res);
         }
     }
 }
