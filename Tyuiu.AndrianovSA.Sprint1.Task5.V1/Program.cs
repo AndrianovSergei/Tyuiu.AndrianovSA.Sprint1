@@ -1,6 +1,6 @@
-﻿using Tyuiu.AndrianovSA.Sprint1.Task4.V1.Lib;
+﻿using Tyuiu.AndrianovSA.Sprint1.Task5.V1.Lib;
 
-namespace Tyuiu.AndrianovSA.Sprint1.Task4.V1
+namespace Tyuiu.AndrianovSA.Sprint1.Task5.V1
 {
     internal class Program
     {
@@ -13,7 +13,7 @@ namespace Tyuiu.AndrianovSA.Sprint1.Task4.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Класс Convert                                                     *");
-            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнил: Андрианов Сергей Александрович | ИИПб-26-1                    *");
             Console.WriteLine("***************************************************************************");
