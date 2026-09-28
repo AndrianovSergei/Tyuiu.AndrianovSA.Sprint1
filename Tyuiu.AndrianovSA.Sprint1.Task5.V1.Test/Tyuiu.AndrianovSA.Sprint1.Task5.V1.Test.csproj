@@ -2,9 +2,12 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<LangVersion>latest</LangVersion>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+
+		<IsPackable>false</IsPackable>
+		<IsTestProject>true</IsTestProject>
+		<RootNamespace>Tyuiu.AndrianovSA.Sprint1.Task5.V1.Test</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -12,12 +15,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Tyuiu.AndrianovSA.Sprint1.Task5.V1.Lib\Tyuiu.AndrianovSA.Sprint1.Task3.V19.Lib.csproj" />
+		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<ProjectReference Include="..\Tyuiu.AndrianovSA.Sprint1.Task5.V1.Lib\Tyuiu.AndrianovSA.Sprint1.Task5.V1.Lib.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+		<Reference Include="tyuiu.cources.programming.interfaces">
+			<HintPath>../tyuiu.cources.programming.interfaces.dll</HintPath>
+			<Private>true</Private>
+		</Reference>
 	</ItemGroup>
 
 </Project>
